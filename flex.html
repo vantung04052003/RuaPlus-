@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chia Hàng và Cột bằng CSS Grid</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .grid-hotline {
+            display: grid;
+            grid-template-columns: 3fr 2fr 2fr 1fr; /* Chia thành 3 cột có kích thước bằng nhau */
+            background-color: black;
+        }
+        .grid-navbar{
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 2fr 1fr 1fr 2fr 1fr 1fr 2fr; /* Chia thành 3 cột có kích thước bằng nhau */
+            background-color: #555555;
+        }
+        .grid-item {
+            color: white;
+            padding: 20px;
+            text-align: end;
+        }
+       .tt{
+        width: 430px;
+        height: 130px;
+        position: relative;
+        bottom: 100px;
+        left: 35%;
+       }
+
+    </style>
+</head>
+<body>
+    <div style="align-items: center;" >
+
+
+    </div>
+    <div class="header">
+        <div class="hotline">
+        <div class="grid-hotline">
+            <div class="grid-item">Hotline: 092.185.8888 (Mr. Khôi)</div>
+            <div class="grid-item"></div>
+            <div class="grid-item">
+                <a >Đăng nhập</a>
+                <a >|</a>
+                <a>Giỏ hàng</a>
+            </div>
+            <div class="grid-item"></div>
+        </div>
+        </div>
+
+        <div class="navbar">
+            <div class="grid-navbar" style="align-items:center ;">
+                <div class="grid-item"></div>
+                <div class="grid-item"><img src="img/—Pngtree—decorative printing with vietnam shandong_6582791.png" style="height: 50px;width: 70px;"></div>
+                <div class="grid-item"><img src="img/—Pngtree—home icon_3655227.png" style="height: 20px;width: 20px;"></div>
+                <div class="grid-item">GIỚI THIỆU</div>
+                <div class="grid-item">
+                    DỊCH VỤ
+                 </div>
+                <div class="grid-item">TƯ VẤN</div>
+                <div class="grid-item">TIN TỨC & SỰ KIỆN</div>
+                <div class="grid-item">LIÊN HỆ</div>
+                <div class="grid-item"><img src="img/—Pngtree—icon search orange_5238731.png" style="height: 20px;width: 20px;"></div>
+             <div class="grid-item"></div>
+            </div>
+        </div> 
+        <div style="width: 100%;" class="BANNER"><img src="img/image.png" width="100%"></div>
+    </div>
+    <div class="tt" style="background-color: rgba(133, 38, 38, 0.548);">
+        <a style="color: white;">Đặt lịch giữ chỗ chỉ 30s</a>
+        <a style="color: white;">Rửa xong trả tiền ,hủy lịch không sao</a>
+        <input type="text"> <button type="submit" style="background-color: rgb(243, 190, 30);">Đặt lịch ngay</button>
+    </div>
+    <div class="main">
+        <!-- Quang cao -->
+        <div style="position: relative;;margin-left: 20%; width: 954px;" class="qc">
+            <div style="display: grid;grid-template-columns: 1fr 1fr;">
+                <div>
+                    <h3>TRẢI NGHIỆM DỊCH VỤ</h3>
+                    <a>Chỉ 15 phút và bạn sẽ có 1 chiếc xe như mới</a>
+                </div>
+                <div>
+                    <a style="float: right;" href="#" >Xem tất cả </a>
+                </div>
+            </div>
+            <div style="width: 100%;">
+                <img src="img/anh1.png" style="width: 100%;">
+            </div>
+
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;height: 80px;padding-top: 10px;">
+                <div  style="display: grid; grid-template-columns: 1fr 1fr;height: 100%;">
+                    <div style="height: 100%;">
+                        <img style="width: 100%;" src="img/Cat03.jpg" alt="">
+                    </div>
+                    <div style="margin: 5px;">
+                        <a style="font-weight: bold;" >Rửa và chăm sóc công nghệ Nhật Bản</a><br><br>
+                        <a>Chỉ từ 100k</a>
+                    </div>
+                </div>
+                <div  style="display: grid; grid-template-columns: 1fr 1fr;height: 100%;">
+                    <div style="height: 100%;">
+                        <img style="width: 100%;" src="img/Cat03.jpg" alt="">
+                    </div>
+                    <div style="margin: 5px;">
+                        <a style="font-weight: bold;" >Rửa và chăm sóc công nghệ Nhật Bản</a><br><br>
+                        <a>Chỉ từ 100k</a>
+                    </div>
+                </div>
+                <div  style="display: grid; grid-template-columns: 1fr 1fr;height: 100%;">
+                    <div style="height: 100%;">
+                        <img style="width: 100%;" src="img/Cat03.jpg" alt="">
+                    </div>
+                    <div style="margin: 5px;">
+                        <a style="font-weight: bold;" >Rửa và chăm sóc công nghệ Nhật Bản</a><br><br>
+                        <a>Chỉ từ 100k</a>
+                    </div>
+                </div>
+                <div  style="display: grid; grid-template-columns: 1fr 1fr;height: 100%;">
+                    <div style="height: 100%;">
+                        <img style="width: 100%;" src="img/Cat03.jpg" alt="">
+                    </div>
+                    <div style="margin: 5px;">
+                        <a style="font-weight: bold;" >Rửa và chăm sóc công nghệ Nhật Bản</a><br><br>
+                        <a>Chỉ từ 100k</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Quang cao -->
+        <div style="position: relative;;margin-left: 20%; width: 954px;padding-top: 80px;" class="qc">
+            <div style="display: grid;grid-template-columns: 1fr 1fr;">
+                <div>
+                    <h3>TRẢI NGHIỆM DỊCH VỤ</h3>
+                    <a>Chỉ 15 phút và bạn sẽ có 1 chiếc xe như mới</a>
+                </div>
+                <div>
+                    <a style="float: right;" href="#" >Xem tất cả </a>
+                </div>
+            </div>
+            <div style="width: 100%;">
+                <img src="img/anh1.png" style="width: 100%;">
+            </div>
+
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;height: 80px;padding-top: 10px;">
+                <div  style="display: grid; grid-template-columns: 1fr 1fr;height: 100%;">
+                    <div style="height: 100%;">
+                        <img style="width: 100%;" src="img/Cat03.jpg" alt="">
+                    </div>
+                    <div style="margin: 5px;">
+                        <a style="font-weight: bold;" >Rửa và chăm sóc công nghệ Nhật Bản</a><br><br>
+                        <a>Chỉ từ 100k</a>
+                    </div>
+                </div>
+                <div  style="display: grid; grid-template-columns: 1fr 1fr;height: 100%;">
+                    <div style="height: 100%;">
+                        <img style="width: 100%;" src="img/Cat03.jpg" alt="">
+                    </div>
+                    <div style="margin: 5px;">
+                        <a style="font-weight: bold;" >Rửa và chăm sóc công nghệ Nhật Bản</a><br><br>
+                        <a>Chỉ từ 100k</a>
+                    </div>
+                </div>
+                <div  style="display: grid; grid-template-columns: 1fr 1fr;height: 100%;">
+                    <div style="height: 100%;">
+                        <img style="width: 100%;" src="img/Cat03.jpg" alt="">
+                    </div>
+                    <div style="margin: 5px;">
+                        <a style="font-weight: bold;" >Rửa và chăm sóc công nghệ Nhật Bản</a><br><br>
+                        <a>Chỉ từ 100k</a>
+                    </div>
+                </div>
+                <div  style="display: grid; grid-template-columns: 1fr 1fr;height: 100%;">
+                    <div style="height: 100%;">
+                        <img style="width: 100%;" src="img/Cat03.jpg" alt="">
+                    </div>
+                    <div style="margin: 5px;">
+                        <a style="font-weight: bold;" >Rửa và chăm sóc công nghệ Nhật Bản</a><br><br>
+                        <a>Chỉ từ 100k</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Quang cao -->
+        <div style="position: relative;;margin-left: 20%; width: 954px;padding-top: 80px;" class="qc">
+            <div style="display: grid;grid-template-columns: 1fr 1fr;">
+                <div>
+                    <h3>TRẢI NGHIỆM DỊCH VỤ</h3>
+                    <a>Chỉ 15 phút và bạn sẽ có 1 chiếc xe như mới</a>
+                </div>
+                <div>
+                    <a style="float: right;" href="#" >Xem tất cả </a>
+                </div>
+            </div>
+            <div style="width: 100%;">
+                <img src="img/anh1.png" style="width: 100%;">
+            </div>
+
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;height: 80px;padding-top: 10px;">
+                <div  style="display: grid; grid-template-columns: 1fr 1fr;height: 100%;">
+                    <div style="height: 100%;">
+                        <img style="width: 100%;" src="img/Cat03.jpg" alt="">
+                    </div>
+                    <div style="margin: 5px;">
+                        <a style="font-weight: bold;" >Rửa và chăm sóc công nghệ Nhật Bản</a><br><br>
+                        <a>Chỉ từ 100k</a>
+                    </div>
+                </div>
+                <div  style="display: grid; grid-template-columns: 1fr 1fr;height: 100%;">
+                    <div style="height: 100%;">
+                        <img style="width: 100%;" src="img/Cat03.jpg" alt="">
+                    </div>
+                    <div style="margin: 5px;">
+                        <a style="font-weight: bold;" >Rửa và chăm sóc công nghệ Nhật Bản</a><br><br>
+                        <a>Chỉ từ 100k</a>
+                    </div>
+                </div>
+                <div  style="display: grid; grid-template-columns: 1fr 1fr;height: 100%;">
+                    <div style="height: 100%;">
+                        <img style="width: 100%;" src="img/Cat03.jpg" alt="">
+                    </div>
+                    <div style="margin: 5px;">
+                        <a style="font-weight: bold;" >Rửa và chăm sóc công nghệ Nhật Bản</a><br><br>
+                        <a>Chỉ từ 100k</a>
+                    </div>
+                </div>
+                <div  style="display: grid; grid-template-columns: 1fr 1fr;height: 100%;">
+                    <div style="height: 100%;">
+                        <img style="width: 100%;" src="img/Cat03.jpg" alt="">
+                    </div>
+                    <div style="margin: 5px;">
+                        <a style="font-weight: bold;" >Rửa và chăm sóc công nghệ Nhật Bản</a><br><br>
+                        <a>Chỉ từ 100k</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="width: 100px;height: 100px;position: relative;" >
+            <img src="img/den.png">
+            <div style="color:white;position: absolute;top: 20px;">
+                <a >Quy trình dịch vụ</a>
+                <a>Khách hàng đặt lịch đến khi nhận xe,nhằm giúp khách hàng hiểu rõ hơn về cách thức hoạt động của chúng tôi</a>
+            </div>
+            <div></div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>

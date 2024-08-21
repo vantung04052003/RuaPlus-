@@ -1,0 +1,141 @@
+
+/* selecttor */
+/* .select{
+    background-color: aqua;
+}
+#select1{
+    color: wheat;
+}
+#select2{
+    color: black;
+}
+#select3{
+    color: rgb(26, 189, 48);
+}
+#select4{
+    color: rgb(222, 32, 159);
+}
+#select5{
+    color: rgb(251, 26, 26);
+} */
+ /* .select #select5{
+    background-color: black;
+ }
+ p{
+    font-style: italic;
+ } */
+ /* don vi */
+ /* .donvi{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+ }
+ .donvi .absolut{
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+ }
+ .donvi .relative{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(30, 222, 65);
+ } */
+ /* <!-- Pseudo elements --> */
+ .pseudo{
+    font-size: 10px;
+    width: 100px;
+    height: 100px;
+ }
+ #before::before{
+    /* them noi dung vao truoc */
+    content: "auto truoc";
+    width: 5px;
+    height: 5px;
+    color: red;
+ }
+ #after::after{
+    /* them noi dung vao sau */
+    content: "auto sau";
+    width: 5px;
+    height: 5px;
+    background-color: yellow;
+ }
+ #first-letter::first-letter{
+    /* css cho chu dau tien */
+    background-color: gray;
+ }
+ #first-line::first-line{
+    /* css cho dong dau tien */
+    background-color: beige;
+ }
+ #selection::selection{
+    background-color: orange;
+    color: aquamarine;
+ }
+
+ .btn{
+    width: 50px;
+    height: 30px;
+    background-color: blue;
+    padding: 5px;
+    border: solid black;
+    a{
+        color: white;
+    }
+    box-sizing: border-box;
+ }
+ .img{
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    /* vi tri background-image xuat hien */
+    background-origin:content-box; 
+    height: 300px;
+    background-image: url(img/anh1.png);
+    background-size:cover ;
+    background-repeat: no-repeat;
+ }
+ /* .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ } */
+  .parent{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+  }
+  .chil{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+  }
+  .box{
+    width: 400px;
+    height: 400px;
+    background: red;
+    position: relative;
+  }
+  .box::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    width: 200px;
+    height: 200px;
+    content:"" ;
+    background-color: green;
+  }
+  /* .child-box{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: scaleX(2);
+  } */
