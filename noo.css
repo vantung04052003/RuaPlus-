@@ -1,4 +1,4 @@
-@media only screen and (min-width:  87.5em) {
+
     *{
         margin: 0;
         padding: 0;
@@ -39,6 +39,9 @@
     .top .hotline{
         position: absolute;
         left: 15%;
+            p{
+                margin: 0;
+            }
     }
     
     .menuparent {
@@ -283,28 +286,28 @@
     }
     
     /* doi ngu */
-    .doingu{
+    .connuoi{
         width: 100%;
         height: auto;
         margin: 30px 0;
     }
-    .slick-doingu{
+    .slick-connguoi{
         width: 100%;
         height: auto;
     }
-    .slick-doingu .slick-slide {
+    .slick-connguoi .slick-slide {
         margin: 0 27px;
     }
     
-    .slick-doingu .slick-list {
+    .slick-connguoi .slick-list {
         margin: 0 -27px;
     }
-    .item-doingu{
+    .item-connguoi{
         width: 20%;
         height: 350px;
         position: relative;
     }
-    .item-doingu img{
+    .item-connguoi img{
         width: 100%;
         height: 100%;
     }
@@ -318,7 +321,7 @@
         color: white;
     }
     
-    .xt{
+    .lala{
         display: flex;
         align-items: center;
         position: absolute;
@@ -520,39 +523,46 @@
     }
     
     /* footer */
-    .footer{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 414px;
-        background-color: black;
+    footer{
+        background-image: url(img/logorua.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #000000;
+        color: white;
+        padding: 30px 0;
     }
-    .footer .img-footer{
-        width: 50%;
-        height: 60%;
+    .img-footer{
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        filter:brightness(0.4);
+    }
+    .img-sub{
+        width: 115px;
+        height: 47px;
+    }
+    .vb-footer{
+        width: 80%;
+        height: auto;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform:  translate(-50%,-50%);
-        filter: brightness(0.2);
+        transform: translate(-50%,-50%);
+        color: white;
     }
-    .vb{
+    .vb-sub{
         display: flex;
         justify-content: space-between;
-        position: absolute;
-        top: 25%;
-        p{
-            color: white;
-        }
     }
-    .page{
-        width: 100%;
-        height: auto;
-        position: absolute;
-        top: 5%;
-        display: flex;
-        align-items: center;
+    .tt-sub{
+        font-weight: bold;
+    }
+    .mid{
+        text-align: center;
     }
     .group-footer{
         position: relative;
@@ -591,17 +601,7 @@
         height: 30px;
         border-radius: 50%;
     }
-    .design{
-        text-align: center;
-        position: absolute;
-        bottom: 5%;
-        margin: auto;
-        width: 100%;
-        p{
-            color: white;
-        }
-    }
-    
+    /* lich */
     .datlich{
         position: absolute;
         top: 450px;
@@ -635,4 +635,3 @@
             transform: translate(-50%,-50%);
         }
     }
-}
