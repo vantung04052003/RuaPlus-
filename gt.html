@@ -16,32 +16,77 @@
 
 <body>
     <header>
-        <img src="img/logorua.png" class="img-header">
-        <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+        <div class="nav-pc">
+
+            
+            <div class="mid-header">
+                <div class="container mid-cnt">
+                    <img src="img/logorua.png" class="img-header">
+                    <div class="nav-bar">
+                        <ul class="menu-parent-pc">
+                            <li class="li-menu-pc"><a href="#"><img src="img/icons8-country-house-50.png" width="22px"></a>
+                            </li>
+                            <li class="li-menu-pc"><a href="gt.html">GIỚI THIỆU</a></li>
+                            <li class="li-menu-pc">
+                                <a href="">DỊCH VỤ &#8744;<i class="fa-solid fa-caret-down"
+                                        style="color: white; width: 10px ; height: 10px;"></i></a>
+                                <ul class="menu-chill-pc">
+                                    <li><a href="#">TIN TỨC & SỰ KIỆN</a></li>
+                                    <li><a href="#">TIN TỨC</a></li>
+                                    <li><a href="#">TIN TỨC & SỰ KIỆN</a></li>
+                                    <li><a href="#">TIN TỨC & SỰ KIỆN 4</a></li>
+                                    <li><a href="#">TIN TỨC & SỰ KIỆN 5</a></li>
+                                </ul>
+                            </li>
+                            <li class="li-menu-pc"><a href="#">TƯ VẤN</a></li>
+                            <li class="li-menu-pc"><a href="#">TIN TỨC & SỰ KIỆN</a></li>
+                            <li class="li-menu-pc"><a href="#">LIÊN Hệ</a></li>
+                            <li class="li-menu-pc"><a href="#"><img src="img/icons8-search-50 (2).png" width="16px"></a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+            </div>
         </div>
-        <div class="nav-bar">
+        <div class="nav-mobile">
+            <div class="container mobile">
+                <img src="img/logorua.png" width="100px" height="60px">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
             <ul class="menu-parent">
-                <li class="li-menu"><a href="#"><img src="img/icons8-country-house-50.png" height="29px"></a></li>
-                <li class="li-menu"><a href="#">GIỚI THIỆU</a></li>
+                <li class="li-menu"><a href="#"><img src="img/icons8-country-house-50.png" width="22px"></a></li>
+                <li class="li-menu"><input type="text" style="background-color: antiquewhite; border: none;"
+                        placeholder="Tìm kiếm">
+                    <button type="submit" style="height: auto; width: auto;">Tìm kiếm</button>
+                <li class="li-menu"><a href="gt.html">GIỚI THIỆU</a></li>
                 <li class="li-menu">
-                    <a href="">DỊCH VỤ <i class="fa-solid fa-caret-down" style="color: white; width: 10px ; height: 10px;"></i></a>
+                    <a href="">DỊCH VỤ &#8744;<i class="fa-solid fa-caret-down"
+                            style="color: white; width: 10px ; height: 10px;"></i></a>
                     <ul class="menu-chill">
                         <li><a href="#">TIN TỨC & SỰ KIỆN</a></li>
+                        <li><a href="#">TIN TỨC</a></li>
                         <li><a href="#">TIN TỨC & SỰ KIỆN</a></li>
-                        <li><a href="#">TIN TỨC & SỰ KIỆN</a></li>
-                        <li><a href="#">Item 4</a></li>
-                        <li><a href="#">Item 5</a></li>
+                        <li><a href="#">TIN TỨC & SỰ KIỆN 4</a></li>
+                        <li><a href="#">TIN TỨC & SỰ KIỆN 5</a></li>
                     </ul>
                 </li>
                 <li class="li-menu"><a href="#">TƯ VẤN</a></li>
                 <li class="li-menu"><a href="#">TIN TỨC & SỰ KIỆN</a></li>
                 <li class="li-menu"><a href="#">LIÊN Hệ</a></li>
-                <li class="li-menu"><a href="#"><img src="img/icons8-search-50 (2).png" height="29px"></a></li>
+    
+                </li>
             </ul>
         </div>
+        <script>
+            $(".hamburger").click(function () {
+                $(this).toggleClass("active");
+                $(".menu-parent").slideToggle("slow");
+            });
+        </script>
     </header>
     <div class="banner">
         <img src="img/2a3ed54e986bbdd9d9d3d2272fb8c751.jpg">
@@ -92,30 +137,21 @@
                 </p>
             </div>
             <div class="share">
-                <p class="vb-share">Chia sẻ:</p>
-                <img src="img/icons8-facebook-48.png" class="icon-share">
-                <img src="img/icons8-google-48.png" class="icon-share">
-                <img src="img/icons8-messenger-48.png" class="icon-share">
-                <img src="img/icons8-facebook-48.png" class="icon-share">
-                <img src="img/icons8-facebook-48.png" class="icon-share">
-            </div>
-            <div class="group-bl">
-                <p>0 bình luận</p>
-                <div class="nhom">
-                    <p>Sắp xếp theo</p>
-                    <select>
-                        <option value="">Mới nhất</option>
-                        <option value="">Cũ nhất</option>
-                        <option value="">Ok nhất</option>
-                    </select>
+                <div class="share mb-3">
+                    <p>Chia sẻ</p>
+                    <ul class="d-flex align-items-center ul-reset">
+                        <li class="mx-1"><button class="facebook"><i class="fab fa-facebook-f"></i></button></li>
+                        <li class="mx-1"><button class="instagram"><i class="fab fa-instagram"></i></button></li>
+                        <li class="mx-1"><button class="twitter"><i class="fab fa-twitter"></i></button></li>
+                        <li class="mx-1"><button class="linkedin"><i class="fab fa-linkedin-in"></i></button></li>
+                    </ul>
                 </div>
+                <hr />
             </div>
-            <div class="binhluan">
-                <img src="img/8cbdaad296b61b3bb8adbf43988300c5.png">
-            </div>
-            <div class="tt-binhluan">
-                <img src="img/icons8-facebook-48.png">
-                <a href="#">Plugin bình luận trên Facebook</a>
+            <div>
+                <div class="fb-comments" data-href="https://www.facebook.com/topcomments.vn" data-width="100%" data-numposts="5"></div>
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v20.0" nonce="KgQTVyox"></script>
             </div>
         </div>
         <div>
@@ -132,10 +168,10 @@
         </div>
     </main>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
+    <div class="ff">
+        <div  class="container">
+            <div class="row dv-footer">
+                <div class="col-lg-6 it-footer">
                     <p class="tt-sub">RỬA + HỆ THỐNG CHĂM SÓC XE HƠI CÔNG NGHẸ NHẬT BẢN</p>
                     <p>HOTLINE: 0928.158.8888 (Mr. Khôi)</p>
                     <p>---------------------------------------------------------------</p>
@@ -146,7 +182,7 @@
                     <p>CS4: Khu dịch vụ 2 Mỗ Lao, Hà Đông, Hà Nội.</p>
                     <p>CS5: Bãi giữ xe P1, khu đô thị Văn Quán, Phúc La, Hà Đông, Hà Nội</p>
                     <p>CS6: Số 2A đường Phan Văn Trị, P10, Q. Gò Vấp, Hồ Chí Minh.</p></div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 it-footer">
                     <P class="tt-sub">THÔNG TIN</P>
                         <p>Trang chủ</p>
                         <p>Giới thiệu</p>
@@ -154,16 +190,15 @@
                         <p>Tin tức & Sự kiện</p>
                         <p>Liên hệ  </p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 it-footer">
                     <p class="tt-sub">FANPAGE</p>
                         <div>
                             <div class="fb-page" data-href="https://www.facebook.com/topcomments.vn" data-tabs="" data-width="400" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/topcomments.vn" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/topcomments.vn">TOP Comments</a></blockquote></div>
                         </div>
                 </div>
             </div>
-        </div>
-        
-    </footer>
+        </div>      
+    </div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v20.0" nonce="VA5V40Ta"></script>
     <script>
         $(document).ready(function () {

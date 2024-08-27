@@ -1,50 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.slick-connguoi .slick-slide {
-    margin: 0 15px;
-}
-
-.slick-connguoi .slick-list {
-    margin: 0 -15px;
-}
-.item-connguoi{
-    height: auto;
-    position: relative;
-}
-.item-connguoi img{
+footer{
     width: 100%;
     height: auto;
+    background-color: #1E1E1E;
+    background-image: url(img/logorua.png);
+    background-size: cover;
 }
-.vb-connguoi{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-}
-.item-connguoi p{
-    margin: 0;
-}
-.name{
-    text-align: center;
-    color: #FFFFFF;
-        p{
-            font-size: 14px;
-        }
-}
-.to{
-    font-size: 16px;
-    font-weight: bold;
-}
-.xt-connguoi{
-    padding: 5px;
-    background-color: #FFB600;
-    width: 100%;
-        a{
-            text-decoration: none;
-            color:#000000;
-            font-size: 14px;
-            margin-left: 15px;
-        }
-}
-
