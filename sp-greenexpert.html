@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="sp-greenexpert.css">
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="slick.min.js"></script>
+    <script src="slick.js"></script>
+    <link rel="stylesheet" href="slick.css">
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v20.0"
+        nonce="ayjgXdPa"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <div class="row d-flex align-item-center">
+                    <div class="col-lg-2">THÔNG TIN LIÊN HỆ</div>
+                    <div class="col-lg-2"><span>HOTLINE: 0962138618</span></div>
+                    <div class="col-lg-5"><span>Email: <a href="#">greenxpertsvietnam@gmail.com</a></span></div>
+                    <div class="col-lg-3 d-flex justify-content-end ">HỒ SƠ NĂNG LỰC</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-header">
+            <div class="container">
+                <div class="row center-menu">
+                    <div class="col-lg-2">
+                        <div class="logo-menu">
+                            <img src="img/logogreen.png" class="img-menu">
+                        </div>
+
+                    </div>
+                    <div class="col-lg-8">
+                        <ul class="menu-parent">
+                            <li><a href="#"><img src="img/vecto-home.png" alt=""></a></li>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="sp-greenexpert.html">Sản phẩm <i class="fa-solid fa-caret-down"></i></a>
+                                <ul class="menu-child">
+                                    <li><a href="#">Chế phẩm kiểm soát côn trùng</a></li>
+                                    <li><a href="#">Hóa chất khử khuẩn</a></li>
+                                    <li><a href="#">Diệt Kiến</a></li>
+                                    <li><a href="#">Máy móc - Thiết bị</a></li>
+                                    <li><a href="#">Diệt Mối - Phòng chống mối công trình</a></li>
+                                    <li><a href="#">Diệt Muỗi - Bọ gậy</a></li>
+                                    <li><a href="#">Diệt Ruồi</a></li>
+                                    <li><a href="#">VỆ SINH LÀM SẠCH</a></li>
+                                    <li><a href="#">Trang phục bảo hộ, dụng cụ khử khuẩn</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Dịch vụ</a></li>
+                            <li><a href="#">Bách khoa côn trùng</a></li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Tuyển dụng</a></li>
+                            <li><a href="#">Văn hóa Green Xperts</a></li>
+                            <li><a class="kich"><img src="img/vecto-search.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 d-flex justify-content-end">
+                        <a href="#"><button class="btn-header">Đặt lịch tư vấn</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-search">
+            <input type="text" placeholder="Tìm kiếm ..."><button type="submit"><img src="img/vecto-search.png"
+                    alt=""></button>
+        </div>
+    </header>
+    <header-mb>
+        <div class="nav-mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center">
+                        <div class="logo">
+                            <a href="#"><img src="img/logogreen.png"></a>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex justify-content-end align-items-center">
+                        <img src="img/vecto-search.png" class="kich">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="menu-parent-mb">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Bách khoa côn trùng</a></li>
+            <li><a href="#">Lĩnh vực</a></li>
+            <li><a href="#">Tin tức</a>
+                <ul class="menu-child-mb">
+                    <li><a href="#">Bản tin mới nhất</a></li>
+                    <li><a href="#">Kiến thức về chuột</a></li>
+                    <li><a href="#">Kiến thức về khư khuẩn</a></li>
+                    <li><a href="#">Kiến thức chung về côn trùng</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Tuyển dụng</a></li>
+            <li><a href="#">Văn hóa GreenXperts</a></li>
+            <li><a href="#">Dịch vụ</a>
+                <ul class="menu-child-mb">
+                    <li><a href="#">Diệt và phồng chống mối</a></li>
+                    <li><a href="#">Diệt kiến</a></li>
+                    <li><a href="#">Diệt rệp</a></li>
+                    <li><a href="#">Khử trùng khử khuẩn</a></li>
+                    <li><a href="#">Diệt côn trùng khác</a></li>
+                </ul>
+            </li>
+            <li><a href="sp-greenexpert.html">Sản phẩm</a>
+                <ul class="menu-child-mb">
+                    <li><a href="#">Chế phẩm kiểm soát côn trùng</a></li>
+                    <li><a href="#">Diệt ruồi</a></li>
+                    <li><a href="#">Vệ sinh làm sạch</a></li>
+                    <li><a href="#">Máy móc thiết bị</a></li>
+                    <li><a href="#">Hóa chât khử khuẩn</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="btn-search">
+            <input type="text" placeholder="Tìm kiếm ..."><button type="submit"><img src="img/vecto-search.png"
+                    alt=""></button>
+        </div>
+        <script>
+            $(".hamburger").click(function () {
+                $(this).toggleClass("active");
+                $(".menu-parent-mb").toggleClass("active");
+            });
+
+        </script>
+    </header-mb>
+    <script>
+        $(document).ready(function () {
+            $(".kich").click(function (event) {
+                $(".btn-search").toggle();
+            });
+        });
+    </script>
+    <main>
+        <div class="container">
+            <div class="title-main">
+                <a href="greenxperts.html">TRANG CHỦ</a>
+                <span>></span>
+                <a href="">SẢN PHẨM</a>
+            </div>
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">[COMBO DIỆT KIẾN+GIÁN] Maxforce Quantum Vs Blattanex
+                                    Cockroch Gel</a></div>
+                            <div class="bot-sanpham">
+                                <span>320,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">Fludora Co-Max Insecticide</a></div>
+                            <div class="bot-sanpham">
+                                <span>Liên hệ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">Premise 200 SC</a></div>
+                            <div class="bot-sanpham">
+                                <span>2,450,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">Dung dịch khử trùng chuyên dụng Sterine (1L)</a></div>
+                            <div class="bot-sanpham">
+                                <span>630,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">Thuốc phun muỗi, kiến, gián PERTH MIN 50EC mùi nhẹ, tồn lưu
+                                    lâu trên bề mặt - Chai 100ml (Hàng Nhập Úc)</a></div>
+                            <div class="bot-sanpham">
+                                <span>120,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">Blattanex cockroach gel 12g</a></div>
+                            <div class="bot-sanpham">
+                                <span>175,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">Thảo mộc 10s Ve, bọ, giận chó mèo</a></div>
+                            <div class="bot-sanpham">
+                                <span>120,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">chế phẩm thuốc diệt muỗi - Icon 10CS</a></div>
+                            <div class="bot-sanpham">
+                                <span>1,350,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">Thuốc diệt côn trùng - Bithor Dual Action Insecticide</a>
+                            </div>
+                            <div class="bot-sanpham">
+                                <span>950,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">Thuốc phun muỗi MAXXTHOR 100 ko mùi, tồn lưu lâu trên bề
+                                    mặt - Chai 1L (Hàng Nhập Mỹ)</a></div>
+                            <div class="bot-sanpham">
+                                <span>850,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">ĐÈN BẮT CÔN TRÙNG TRONG NHÀ VÀ NGOÀI TRỜI KTP-22W</a></div>
+                            <div class="bot-sanpham">
+                                <span>720,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">Thảo Mộc 10s - Xịt Trị Ve, Bọ, Rận, Kí sinh trùng, Khử
+                                    trùng chó, mèo.</a></div>
+                            <div class="bot-sanpham">
+                                <span>120,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">Thảo Mộc 10s - Xịt Trị Ve, Bọ, Rận, Kí sinh trùng, Khử
+                                    trùng chó, mèo.</a></div>
+                            <div class="bot-sanpham">
+                                <span>120,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">Thảo Mộc 10s - Xịt Trị Ve, Bọ, Rận, Kí sinh trùng, Khử
+                                    trùng chó, mèo.</a></div>
+                            <div class="bot-sanpham">
+                                <span>120,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">Thảo Mộc 10s - Xịt Trị Ve, Bọ, Rận, Kí sinh trùng, Khử
+                                    trùng chó, mèo.</a></div>
+                            <div class="bot-sanpham">
+                                <span>120,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 sanpham">
+                            <div class="img-sp"><a href="#"><img src="img/Premise_packshot_webVN.jpg"></a></div>
+                            <div class="name-sp"><a href="#">Thảo Mộc 10s - Xịt Trị Ve, Bọ, Rận, Kí sinh trùng, Khử
+                                    trùng chó, mèo.</a></div>
+                            <div class="bot-sanpham">
+                                <span>120,000đ</span>
+                                <div class="danhgia">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 phantrang">
+                            <div class="page">1</div>
+                            <div class="page">2</div>
+                            <div class="page">3</div>
+                            <div class="page">4</div>
+                            <div class="page">5</div>
+                            <div class="page">Next</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="title-filter">
+                        <p>Bộ lọc sản phẩm</p>
+                    </div>
+                    <div class="container">
+                        <div class="search-filter">
+                            <input type="text" class="form-control" required="" name="keywords"
+                                placeholder="Tìm sản phẩm">
+                            <button type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                        <div class="select-filter">
+                            <div class="filter">
+                                <p>SẢN PHẨM</p>
+                                <i class="fas fa-chevron-down hide-show"></i>
+                            </div>
+                            <div class="select">
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Tất cả sản phẩm
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Chế phẩm kiểm soát côn trùng
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Diệt kiến
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Diệt mối - Phòng chống mối công trình
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Diệt Muỗi - Bọ Gậy
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Diệt Ruồi
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Hóa chất khủ khuẩn
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Kiểm soát chuột
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Kiểm soát gián đức
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Máy móc - Thiết bị
+                                    <input type="radio">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="select-filter">
+                            <div class="filter">
+                                <p>Địa chỉ nơi bán</p>
+                                <i class="fas fa-chevron-down hide-show"></i>
+                            </div>
+                            <div class="select">
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Tất cả
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Hà Nội
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    TP Hồ Chí Minh
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Đà Nẵng
+                                    <input type="radio">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="select-filter">
+                            <div class="filter">
+                                <p>Cửa hàng</p>
+                                <i class="fas fa-chevron-down hide-show"></i>
+                            </div>
+                            <div class="select">
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Tất cả
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Lazada.vn
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Sendo.vn
+                                    <input type="radio">
+                                </div>
+                                <div class="item-filter">
+                                    <div class="radio"></div>
+                                    Shoppe.vn
+                                    <input type="radio">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter">
+                            <p>Giá sản phẩm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $('.radio').click(function () {
+                $('.radio').removeClass("active");
+                $(this).addClass("active");
+            });
+            $(".hide-show").click(function () {
+                $(this).closest('.filter').next(".select").toggleClass("hide");
+            });
+        </script>
+    </main>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row g-3" style="padding-bottom:30px ;">
+                <div class="col-lg-5 footer-center">
+                    <div class="img-footer">
+                        <img src="img/logogreen.png">
+                    </div>
+                    <p class="title-footer">CÔNG TY TNHH GREEN XPERTS VIỆT NAM</p>
+                    <p><span class="diachi">Địa chỉ Hà nội:</span>Số 59 Ngõ 433 Kim Ngưu, Hai Bà Trưng, Hà Nội</p>
+                    <p class="title-footer">TỰ HÀO LÀ THÀNH VIÊN BNI VÀ VPMA</p>
+                    <div>
+                        <img src="img/logo-footer-green1.png" class="logo-thanhvien">
+                        <img src="img/logo-footer-green2.png" class="logo-thanhvien">
+                    </div>
+                </div>
+                <div class="col-lg-2 center-foot">
+                    <p class="title-footer">LINK NHANH</p>
+                    <P>Giới thiệu</P>
+                    <P>Sản phẩm</P>
+                    <P> Thiết bị</P>
+                    <P>Văn hóa Green Xperts</P>
+                    <P>Tuyển dụng</P>
+                </div>
+                <div class="col-lg-5 footer-left">
+                    <p class="title-footer center-foot">FANPAGE</p>
+                    <div class="center-foot">
+                        <div class="fb-page " data-href="https://www.facebook.com/facebook" data-tabs=""
+                            data-width="" data-height="" data-small-header="false" data-adapt-container-width="true"
+                            data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a
+                                    href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+                        </div>
+                    </div>
+                    <p class="center-foot">Vui lòng đăng ký để nhận thông tin mới</p>
+                    <div class="thu">
+                        <input type="text" placeholder="Nhập email">
+                        <div>
+                            <div class="img-thu"><img src="img/thu.png"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bot-footer">
+        <p>© Copyright GreenXperts 2023. Designed by Vicogroup.vn</p>
+    </div>
+</body>
+
+</html>
